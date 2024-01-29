@@ -1,4 +1,5 @@
 {
   "solidity.compileUsingRemoteVersion": "v0.8.23+commit.f704f362",
-  "solidity.monoRepoSupport": true
+  "solidity.monoRepoSupport": true,
+  "solidity.formatter": "forge"
 }
