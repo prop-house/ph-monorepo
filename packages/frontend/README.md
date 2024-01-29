@@ -1,6 +1,14 @@
-# @prophouse/frontend
-
-A Next.js frontend that interacts with the Prop House protocol
+<h1 align="center">
+  @prophouse/frontend
+</h1>
+<p align="center">
+  A Next.js frontend that interacts with the Prop House protocol
+</p>
+<p align="center">
+  <a href="https://prop.house/">
+    <img src="https://img.shields.io/badge/website-prop.house-892BE2">
+  </a>
+</p>
 
 ## Getting Started
 

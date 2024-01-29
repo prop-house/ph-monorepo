@@ -1,6 +1,14 @@
-# @prophouse/protocol
-
-The Prop House protocol contracts
+<h1 align="center">
+  @prophouse/protocol
+</h1>
+<p align="center">
+  The Prop House protocol contracts
+</p>
+<p align="center">
+  <a href="https://prop.house/">
+    <img src="https://img.shields.io/badge/website-prop.house-892BE2">
+  </a>
+</p>
 
 ## Contract Development
 
