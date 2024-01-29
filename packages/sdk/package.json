@@ -22,7 +22,7 @@
     "format:fix": "prettier --write src/**/*.ts",
     "test": "jest",
     "typecheck": "tsc",
-    "codegen": "yarn codegen:evm && yarn codegen:starknet",
+    "codegen": "pnpm codegen:evm && pnpm codegen:starknet",
     "codegen:evm": "graphql-codegen --config scripts/gql-codegen.evm.ts",
     "codegen:starknet": "graphql-codegen --config scripts/gql-codegen.starknet.ts"
   },

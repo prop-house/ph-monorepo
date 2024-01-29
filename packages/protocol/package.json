@@ -14,7 +14,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "typechain": "typechain --target=ethers-v5 out/**/*.json --out-dir typechain",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "pnpm build:l1 && pnpm typechain && pnpm build:ts",
+    "build:l1": "forge build",
+    "build:l2": "cd contracts/starknet && scarb",
+    "build:ts": "tsc -p tsconfig.build.json",
     "clean:build": "rimraf ./dist",
     "dev": "nodemon",
     "lint": "eslint . --ext .js,.ts",
