@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 /// @title IERC1155
 /// @notice The external ERC1155 events, errors, and functions

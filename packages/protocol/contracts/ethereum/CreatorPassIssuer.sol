@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {ERC1155} from './lib/token/ERC1155.sol';
 import {ICreatorPassIssuer} from './interfaces/ICreatorPassIssuer.sol';

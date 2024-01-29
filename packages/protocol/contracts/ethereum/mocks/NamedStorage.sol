@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 // Library to provide basic storage, in storage location out of the low linear address space.
 // New types of storage variables should be added here upon need.

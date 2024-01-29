@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 interface ITokenMetadataRenderer {
     /// @notice Returns metadata for `tokenId` as a Base64-JSON blob

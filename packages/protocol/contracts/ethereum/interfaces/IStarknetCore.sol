@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 interface IStarknetCore {
     /// @notice Send a message to an L2 contract and return the hash of the message

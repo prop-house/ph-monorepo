@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {ERC165} from './ERC165.sol';
 import {IERC165} from '../../interfaces/IERC165.sol';

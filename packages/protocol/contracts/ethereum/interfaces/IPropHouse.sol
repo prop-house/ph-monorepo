@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {Asset} from '../lib/types/Common.sol';
 import {IERC721} from './IERC721.sol';

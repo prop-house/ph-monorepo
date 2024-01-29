@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {IInitializable} from '../../interfaces/IInitializable.sol';
 import {Address} from './Address.sol';

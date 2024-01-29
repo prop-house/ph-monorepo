@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {IStarknetCore} from './interfaces/IStarknetCore.sol';
 import {Uint256} from './lib/utils/Uint256.sol';

@@ -22,6 +22,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "test": "jest",
+    "test:setup": "ts-node blacksmith.ts create",
     "typecheck": "tsc"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "@openzeppelin/contracts": "4.9.3",
     "@typechain/ethers-v5": "10.1.0",
     "solady": "0.0.111",
+    "ts-node": "^10.9.1",
     "typechain": "8.1.0"
   },
   "peerDependencies": {

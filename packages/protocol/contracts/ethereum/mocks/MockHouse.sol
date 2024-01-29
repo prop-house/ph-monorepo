@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {IHouse} from '../interfaces/IHouse.sol';
 import {ERC721} from '../lib/token/ERC721.sol';

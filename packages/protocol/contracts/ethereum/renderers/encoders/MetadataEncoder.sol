@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {Base64} from 'solady/src/utils/Base64.sol';
 import {IMetadataEncoder} from '../../interfaces/IMetadataEncoder.sol';

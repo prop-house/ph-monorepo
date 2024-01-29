@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.17;
+pragma solidity 0.8.23;
 
 import {AssetRound} from './base/AssetRound.sol';
 import {AssetHelper} from '../lib/utils/AssetHelper.sol';
