@@ -36,7 +36,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 
 const appInfo = {
   appName: APP_TITLE,
-  projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || ''
+  projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || 'CI'
 };
 const projectId = appInfo.projectId;
 
