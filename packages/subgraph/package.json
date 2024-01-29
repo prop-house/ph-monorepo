@@ -18,7 +18,7 @@
     "test": "graph test"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "0.47.0",
+    "@graphprotocol/graph-cli": "0.67.2",
     "@graphprotocol/graph-ts": "0.29.3",
     "as-poseidon": "0.1.2"
   },
