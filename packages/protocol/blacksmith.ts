@@ -283,7 +283,7 @@ const getFiles = () => {
     fs.readFileSync('./cache/solidity-files-cache.json', 'utf8')
   );
   const files = Object.values<SolidityCacheFile>(cache.files);
-  let contractPaths: { name: string; source: string }[] = [];
+  const contractPaths: { name: string; source: string }[] = [];
   files.forEach((file) => {
     const contracts = Object.keys(file.artifacts);
     contracts
