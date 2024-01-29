@@ -1,0 +1,9 @@
+# Generated files
+pnpm-lock.yaml
+node_modules
+dist
+
+# Foundry
+cache
+out
+lib

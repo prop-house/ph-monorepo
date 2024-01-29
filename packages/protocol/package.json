@@ -1,0 +1,39 @@
+{
+  "name": "@prophouse/protocol",
+  "version": "0.0.0-development",
+  "description": "The Prop House protocol contracts",
+  "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7.5.1"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "typechain": "typechain --target=ethers-v5 out/**/*.json --out-dir typechain",
+    "build": "tsc -p tsconfig.build.json",
+    "clean:build": "rimraf ./dist",
+    "dev": "nodemon",
+    "lint": "eslint . --ext .js,.ts",
+    "lint:fix": "pnpm lint --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "test": "jest",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "~5.7.0",
+    "@ethersproject/providers": "~5.7.0",
+    "@prophouse/sdk": "1.0.27",
+    "@openzeppelin/contracts": "4.9.3",
+    "@typechain/ethers-v5": "10.1.0",
+    "solady": "0.0.111",
+    "typechain": "8.1.0"
+  },
+  "peerDependencies": {
+    "ethers": "~5.7.2"
+  }
+}
