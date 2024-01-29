@@ -1,1 +1,1 @@
-export { usePropHouse } from './usePropHouse';
+export { usePropHouse } from './usePropHouse.js';

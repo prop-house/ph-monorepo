@@ -1,5 +1,5 @@
 import { PropHouse, Custom } from '@prophouse/sdk';
-import { PropHouseContext } from '../components';
+import { PropHouseContext } from '../components/index.js';
 import { useContext } from 'react';
 
 export const usePropHouse = <

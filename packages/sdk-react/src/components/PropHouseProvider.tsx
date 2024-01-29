@@ -8,14 +8,7 @@ import {
 } from '@prophouse/sdk';
 import React, { createContext, useEffect, useState } from 'react';
 import { FallbackProvider, JsonRpcProvider, Web3Provider } from '@ethersproject/providers';
-import {
-  usePublicClient,
-  useProvider,
-  useWalletClient,
-  useSigner,
-  PublicClient,
-  WalletClient,
-} from 'wagmi';
+import { usePublicClient, useWalletClient, PublicClient, WalletClient } from 'wagmi';
 
 const publicClientToProvider = (publicClient: PublicClient) => {
   const { chain, transport } = publicClient;
@@ -79,8 +72,8 @@ export const PropHouseProvider = <CS extends Custom | void = void>({
   children,
   ...props
 }: PropHouseProps<CS>) => {
-  const provider = useProvider?.() || useEthersProvider();
-  const { data: signer } = useSigner?.() || useEthersSigner();
+  const provider = useEthersProvider();
+  const { data: signer } = useEthersSigner();
 
   const [propHouse, setPropHouse] = useState(
     new PropHouse({

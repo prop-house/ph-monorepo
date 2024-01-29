@@ -75,8 +75,8 @@ importers:
         specifier: ^5.14.17
         version: 5.15.6(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@prophouse/sdk-react':
-        specifier: 1.0.22
-        version: 1.0.22(react@18.2.0)(wagmi@1.4.13)
+        specifier: 1.0.25
+        version: 1.0.25(react@18.2.0)(wagmi@1.4.13)
       '@rainbow-me/rainbowkit':
         specifier: ^1.2.0
         version: 1.3.3(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)(viem@1.21.4)(wagmi@1.4.13)
@@ -3305,8 +3305,8 @@ packages:
       - bufferutil
       - utf-8-validate
 
-  /@prophouse/sdk-react@1.0.22(react@18.2.0)(wagmi@1.4.13):
-    resolution: {integrity: sha512-nrIS8sJZgF4yx8x9alxQUvjaN/+bNTmp6h+bopJGtfT3Oh9lThHBQFUvOn1LVpW6Gf8wTRwlkmGE5W0zZFo71g==}
+  /@prophouse/sdk-react@1.0.25(react@18.2.0)(wagmi@1.4.13):
+    resolution: {integrity: sha512-mBQ3ATCCUsrj1cl+xobtNjk7uZlTCM/qvRzE7RKDEQ+ty/Zt8ZdAjR2MAe+z+GwrWJzcBIFFGkdDXZsQUf972g==}
     engines: {node: '>=16', pnpm: '>=7.5.1'}
     peerDependencies:
       react: '>=16.13.1'

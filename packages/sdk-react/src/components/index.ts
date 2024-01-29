@@ -1,1 +1,1 @@
-export { PropHouseProvider, PropHouseContext } from './PropHouseProvider';
+export { PropHouseProvider, PropHouseContext } from './PropHouseProvider.js';
