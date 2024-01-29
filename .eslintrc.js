@@ -14,6 +14,14 @@ module.exports = {
     '@typescript-eslint/no-namespace': [
       'off',
       path.join(__dirname, 'packages/sdk')
+    ],
+    '@typescript-eslint/no-unsafe-assignment': [
+      'off',
+      path.join(__dirname, 'packages/frontend')
+    ],
+    '@typescript-eslint/no-unsafe-call': [
+      'off',
+      path.join(__dirname, 'packages/frontend')
     ]
   },
   plugins: ['@typescript-eslint'],

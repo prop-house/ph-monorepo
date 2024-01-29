@@ -11,7 +11,7 @@ const PropHouseDataExample = () => {
     const fetch = async () => {
       setRounds(await propHouse.query.getRounds());
     };
-    fetch();
+    void fetch();
   }, [propHouse.query]);
 
   return <>{rounds?.map((round) => <p>{round.title}</p>) || <Skeleton />}</>;
