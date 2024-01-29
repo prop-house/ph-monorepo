@@ -24,7 +24,7 @@
     "lint:fix": "pnpm lint --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "test": "jest",
+    "test": "forge test",
     "test:setup": "ts-node blacksmith.ts create",
     "typecheck": "tsc"
   },
