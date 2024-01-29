@@ -20,7 +20,6 @@
     "lint:fix": "pnpm lint --fix",
     "format": "prettier --check src/**/*.ts",
     "format:fix": "prettier --write src/**/*.ts",
-    "test": "jest",
     "typecheck": "tsc",
     "codegen": "pnpm codegen:evm && pnpm codegen:starknet",
     "codegen:evm": "graphql-codegen --config scripts/gql-codegen.evm.ts",
