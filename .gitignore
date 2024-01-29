@@ -27,3 +27,7 @@ typechain
 
 # Scarb
 target
+
+# Next.js build output
+.next
+out

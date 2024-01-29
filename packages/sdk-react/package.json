@@ -1,11 +1,12 @@
 {
   "name": "@prophouse/sdk-react",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Utilities that simplify interaction with the Prop House from React applications",
   "license": "GPL-3.0",
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "engines": {
     "node": ">=16",
     "pnpm": ">=7.5.1"
@@ -24,15 +25,15 @@
   },
   "peerDependencies": {
     "react": ">=16.13.1",
-    "wagmi": ">=0.9.2"
+    "wagmi": ">=1.2"
   },
   "dependencies": {
     "@ethersproject/providers": "~5.7.0",
     "@prophouse/sdk": "1.0.27"
   },
   "devDependencies": {
-    "@types/react": "^17.0.3",
-    "react": "^17.0.2",
-    "wagmi": "~1.2"
+    "@types/react": "^18.2.37",
+    "react": "^18.2.0",
+    "wagmi": "~1.4.5"
   }
 }
