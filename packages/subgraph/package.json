@@ -14,7 +14,7 @@
     "build:goerli": "graph build --network goerli",
     "deploy:goerli": "graph deploy --network goerli --product hosted-service prop-house/prop-house-goerli-v2",
     "build:mainnet": "graph build --network mainnet",
-    "deploy:mainnet": "graph deploy --network mainnet --product hosted-service prop-house/prop-house --access-token 9f5c52e6e427249e8d7c1ef7759b9de8",
+    "deploy:mainnet": "graph deploy --network mainnet --product hosted-service prop-house/prop-house",
     "test": "graph test"
   },
   "dependencies": {

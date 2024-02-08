@@ -1,6 +1,6 @@
 {
   "name": "@prophouse/sdk",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "Utilities that simplify interaction with the Prop House protocol",
   "license": "GPL-3.0",
   "publishConfig": {
@@ -42,7 +42,7 @@
     "@ethersproject/wallet": "^5.7.0",
     "@graphql-typed-document-node/core": "^3.2.0",
     "@pinata/sdk": "^2.1.0",
-    "@prophouse/protocol": "1.0.8",
+    "@prophouse/protocol": "1.0.10",
     "bn.js": "^5.2.1",
     "ethereumjs-fork-block": "^4.2.4",
     "ethereumjs-fork-common": "^3.1.3",

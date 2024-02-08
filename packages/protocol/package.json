@@ -1,6 +1,6 @@
 {
   "name": "@prophouse/protocol",
-  "version": "0.0.0-development",
+  "version": "1.0.11",
   "description": "The Prop House protocol contracts",
   "license": "GPL-3.0",
   "publishConfig": {
@@ -10,8 +10,8 @@
     "node": ">=18",
     "pnpm": ">=7.5.1"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "typechain": "typechain --target=ethers-v5 out/**/*.json --out-dir typechain",
     "build": "pnpm build:l1 && pnpm typechain && pnpm build:ts",
