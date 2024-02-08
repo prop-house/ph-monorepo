@@ -8,5 +8,8 @@ cache
 out
 lib
 
+# Starknet
+target
+
 # Typechain
 typechain
