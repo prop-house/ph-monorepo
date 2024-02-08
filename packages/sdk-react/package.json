@@ -1,6 +1,6 @@
 {
   "name": "@prophouse/sdk-react",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Utilities that simplify interaction with the Prop House from React applications",
   "license": "GPL-3.0",
   "publishConfig": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@ethersproject/providers": "~5.7.0",
-    "@prophouse/sdk": "1.0.27"
+    "@prophouse/sdk": "1.0.28"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
