@@ -1,41 +1,41 @@
 {
   "ethereum": {
     "address": {
-      "manager": "0x6C126e81ad4F72827E857463f2f4C9841e6DB3a6",
-      "propHouse": "0x6381795e52Fa8bC7957e355d1D685986Bc8d841b",
-      "messenger": "0xF7d519A1660dd9237D47C039696Fe4a2b93B6987",
-      "creatorPassIssuer": "0x18e8897ad5d28284fea1bE863B425dDD4e3cA5f6",
-      "starknetCommit": "0xd90692D27D01B8eFf06d9DC82F5D69B56eD3Fe0b",
-      "communityHouseImpl": "0x362a715eCe6B3080F4BAAA255239B06197cf98aB",
-      "infiniteRoundImpl": "0x3bb9F0bc41212bf25285bEcfa572B2890f91e866",
-      "timedRoundImpl": "0x8f6084435799F15A78cD2f5C6dC1555d91ebD473"
+      "manager": "0x5d970884c7dBc8bD03e7a6CC20048B68FF3A52DE",
+      "propHouse": "0x7239D0226eD5BC323286c904D4d5A9c06b230048",
+      "messenger": "0x83eC339CDaf39817ad2de608C7E626649463add5",
+      "creatorPassIssuer": "0x124A7Fb2681dAd18bA8Ae1bDeff625F6A441069B",
+      "starknetCommit": "0x54ca211a3889902538ea4DBD7d4e4d0eBcA965BF",
+      "communityHouseImpl": "0xC39DbBFCC14181E134143573F4cceba774b09DCc",
+      "infiniteRoundImpl": "0x0000000000000000000000000000000000000000",
+      "timedRoundImpl": "0x0000000000000000000000000000000000000000"
     }
   },
   "starknet": {
     "address": {
-      "roundFactory": "0x677d43766e880bfa6ddcf43e2ff54d54c64105e4a7fce20b7b1d40086a3a674",
-      "ethExecutionStrategy": "0x25912b045a80f5a550caeaca561f7020d5751cdf8c0b2b6f484040b8b21b71d",
-      "strategyRegistry": "0x29b757da8bb4cbb89b6881bfc01cebdc07948dc977f00a6f4bc45ad7d3e74db",
-      "roundDependencyRegistry": "0x1b30a2ce386c8e0f9319d94323f9235f5ab84b240a07bbc370f9ba018d63b7",
-      "ethBlockRegistry": "0x4b48eb6bed6855c8bff8eb2490dcf1410e4bac2fed88aab3a74928909c76493",
-      "infiniteRoundEthTxAuthStrategy": "0x705c584ccb01c6ef2ad890689baf7d71b23bd77c13e839ab4d4c38d0229fd99",
-      "infiniteRoundEthSigAuthStrategy": "0x323f830b66e2789d508e1e203d6662b07e607b7bc18529cd073519ac4c79a6f",
-      "timedRoundEthTxAuthStrategy": "0x67853c2d77c44bf1b2202e6c299d8d3fd304680ef334eb181bce5b3170cff26",
-      "timedRoundEthSigAuthStrategy": "0x9d7239586d7defbc19741de5c2c78d0a0e4bff90eda4402f28a93e514eeda9",
-      "vanillaGovPowerStrategy": "0x511fd6119df7bfb5ca03edcc2c7b341287357ae0fc64f3906b1cb3be4dbe984",
-      "allowlistGovPowerStrategy": "0x1c96e9d7e1a4cbe14fd435a8d8a85de446a6f681e857b3136b89708f1a3c1df",
-      "ethBalanceOfGovPowerStrategy": "0x4ff2eee9b0d91eda2ae6dd620d34f5c6ddf11990d948088753acb2a3cca2f93",
+      "roundFactory": "0x0013a01124554e76ac32af3d91bf47d2c2ea8432db7b9a16d0cd39d09bd65c6f",
+      "ethExecutionStrategy": "0x012ffaf50d64a5821b2d9d1ce2431cb3ca313eee7f8fcfa07ed1b79d38ab95be",
+      "strategyRegistry": "0x075242b031b0fb919415d53e9a25daf81f89dd7c7b671e0514bad60c08e72e81",
+      "roundDependencyRegistry": "0x0664f22e63bc1ff490bc6d8165b83992294f71026adf90ead4c76fd33cf6ac6c",
+      "ethBlockRegistry": "0x0052e7ab4dcdacd92d0f287849cb7371a3c5e861fcd95b3deff07374ae00ce1c",
+      "infiniteRoundEthTxAuthStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "infiniteRoundEthSigAuthStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "timedRoundEthTxAuthStrategy": "0x039a8e9a8118ca21d70283400b7d87d993348fa1389df4d9712cb141e564fc4f",
+      "timedRoundEthSigAuthStrategy": "0x00071c65f6a293c6874815336cda5e62b9ea9e6555871a83ee37f2fd34bc9349",
+      "vanillaGovPowerStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "allowlistGovPowerStrategy": "0x050244245f03a281aa37dbedca57f33325157850c392e1db8c5d430756612b31",
+      "ethBalanceOfGovPowerStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
       "ethBalanceOfErc20GovPowerStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
-      "ethBalanceOfErc1155GovPowerStrategy": "0x3016c4e41fe92c2ce5cc1a4686c7c22ba5d810e7686546c8a44e8c78a4ba154",
-      "ethCheckpointableErc721GovPowerStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "ethBalanceOfErc1155GovPowerStrategy": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "ethCheckpointableErc721GovPowerStrategy": "0x008e80cc8936747a23227fdb908b512c31488efaeab4f32f623979836a9db3b5",
       "herodotus": {
-        "factRegistry": "0x5e6c5b45485f2eb7609a27e413aad727536b3590a64e18ceb5950e30852288f",
-        "l1HeadersStore": "0x1d9b36a00d7d5300e5da456c56d09c46dfefbc91b3a6b1552b6f2a34d6e34c4"
+        "factRegistry": "0x032d46f2e479b5bf1c11e22ca6765652636670548b87fdb3be5525344ff579c4",
+        "l1HeadersStore": "0x00f7d8d6faaefb2eb027615cc64aa3b0d29bd01b5c26ef9ad78ca7f5d4601d79"
       }
     },
     "classHash": {
-      "infiniteRound": "0x05b7806c8c7cb9c87b788c9a54848191b3108eb22da7bd2d39dd23cc24e907fb",
-      "timedRound": "0x3681381f5a44e9418d6c76b410f7e8e77c541381d4693fbdd60d6868ac876f3"
+      "infiniteRound": "0x000000000000000000000000000000000000000000000000000000000000000",
+      "timedRound": "0x000000000000000000000000000000000000000000000000000000000000000"
     }
   }
 }

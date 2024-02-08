@@ -1,0 +1,121 @@
+[[call]]
+call_type = "deploy"
+class_hash = "0x06e59f300dff121468dd1e5b3b2c4e5714797c59fb61af35a88f25ce29c44fbe"
+inputs = [
+    "0x5", # Origin Chain ID
+    "0x83eC339CDaf39817ad2de608C7E626649463add5", # Origin Messenger
+]
+id = "round_factory"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x01e7429ef329af08bbb8bb5966a90435ba1b9a645e8fc48042363d7dca1e4b00"
+inputs = ["round_factory"]
+id = "eth_execution_strategy"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x062cfae2838a722bbe11e2a1979baf099dafa72a2cfd45dbf8814ee576b9e304"
+inputs = []
+id = "strategy_registry"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x0782b629d4cf65dd3feedae9f7f1b6be54a8787e18cbf1c1d9b8bb3f14bcf48b"
+inputs = [
+    "0x30898137eb5f0fdf9b9cf7027c5b7fe953959a67d87087e23207ad716dd878d" # Initial Owner
+]
+id = "round_dependency_registry"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x2e7113885661bfff4abbac8382cff743216fb55df8cb450877530811033b5d2"
+inputs = [
+    "0x00f7d8d6faaefb2eb027615cc64aa3b0d29bd01b5c26ef9ad78ca7f5d4601d79" # L1 Headers Store
+]
+id = "eth_block_registry"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x0046521e56d25e62739341f22111980fea28c257ecd8f464fbd8fa64200c36c7"
+inputs = []
+id = "allowlist_gov_power_strategy"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x723f0a65d64af45d0eb53859e644a78bf172152271f802f617e335026c692fe"
+inputs = [
+    "0x32d46f2e479b5bf1c11e22ca6765652636670548b87fdb3be5525344ff579c4", # Fact Registry
+    "eth_block_registry"
+]
+id = "checkpointable_erc721_gov_power_strategy"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x004a73a7449e34808c5b0f54b387f22a2862f92ab220c4148bb4c112db6a7f59"
+inputs = [
+    "0x54ca211a3889902538ea4DBD7d4e4d0eBcA965BF" # Commit Contract
+]
+id = "timed_round_eth_tx_auth_strategy"
+unique = true
+
+[[call]]
+call_type = "deploy"
+class_hash = "0x776b45486ecc7f014f7e840e6176007701dd107f76b29b242ca6a9d2a8e10b9"
+inputs = [
+    "0x293B7960F35BD1DB59A620D4C2CBFD81", # Domain Separator (Low)
+    "0x367959FBFF4DA0A038F30383DE089BCD"  # Domain Separator (High)
+]
+id = "timed_round_eth_sig_auth_strategy"
+unique = true
+
+[[call]]
+call_type = "invoke"
+contract_address = "round_dependency_registry"
+function = "update_dependencies_if_not_locked"
+inputs = [
+    "0x5", # Origin Chain ID
+    "0x54494D4544", # hex("TIMED")
+    "0x415554485F53545241544547494553", # hex("AUTH_STRATEGIES")
+    "0x2", # Number of auth strategies
+    "timed_round_eth_tx_auth_strategy", # Transaction Auth Strategy
+    "timed_round_eth_sig_auth_strategy", # Signature Auth Strategy
+]
+
+[[call]]
+call_type = "invoke"
+contract_address = "round_dependency_registry"
+function = "update_dependency_if_not_locked"
+inputs = [
+    "0x5", # Origin Chain ID
+    "0x54494D4544", # hex("TIMED")
+    "0x455845435554494F4E5F5354524154454759", # hex("EXECUTION_STRATEGY")
+    "eth_execution_strategy" # Ethereum Execution Strategy
+]
+
+[[call]]
+call_type = "invoke"
+contract_address = "round_dependency_registry"
+function = "lock_key"
+inputs = [
+    "0x5", # Origin Chain ID
+    "0x54494D4544", # hex("TIMED")
+    "0x415554485F53545241544547494553", # hex("AUTH_STRATEGIES")
+]
+
+[[call]]
+call_type = "invoke"
+contract_address = "round_dependency_registry"
+function = "lock_key"
+inputs = [
+    "0x5", # Origin Chain ID
+    "0x54494D4544", # hex("TIMED")
+    "0x455845435554494F4E5F5354524154454759", # hex("EXECUTION_STRATEGY")
+]
